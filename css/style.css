@@ -126,7 +126,6 @@ nav > ul {
 }
 nav > ul > li {
     display: inline-block;
-    width: 100%;
 }
 nav > ul > li > a {
     padding: 0 10px;
@@ -160,5 +159,5 @@ nav > ul > li > a:active {
     width: 100%;
 }
 main {
-    padding-top: 237px;
+    padding-top: 240px;
 }
