@@ -9,7 +9,7 @@ header {
     background-color: #000000;
     text-align: center;
     padding: 10px;
-    margin: 0px 10px;
+    margin: 0px 0px;
     -webkit-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.75);
     box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.75);
@@ -24,12 +24,12 @@ header {
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #000000;
+    background-color: #ffffff;
     font-family: "Lato", sans-serif;
     font-size: 18px; /* Sets the font size to 16px */
     font-weight: 400; /* Sets the font weight to 300 */
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-    color: #ffffff;
+    color: #000000;
 }
 
 h1,
@@ -38,7 +38,7 @@ h3,
 h4 {
     font-family: "Montserrat", sans-serif;
     line-height: 1.4;
-    color: #ffffff;
+    color: #000000;
 }
 h1 {
     font-size: 2.75em;
@@ -69,9 +69,10 @@ a {
 }
 a:visited {
     /* visited link */
-    color: #099fe3;
+    color: #9400D3;
 }
 a:hover {
+    opacity: 0.8;
     color: #099fe3;
     text-decoration: underline; /* Underlining when hovering over a link */
 }
@@ -82,8 +83,8 @@ a:active {
 
 .button {
     display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-    background-color: #ffffff;
-    color: #099fe3; /* needed to override the default link color */
+    background-color: #228c22;
+    color: #ffffff; /* needed to override the default link color */
     font-weight: 400;
     padding: 10px;
     border-radius: 10px;
@@ -92,7 +93,7 @@ a:active {
 }
 .button:hover {
     opacity: 0.8; /* Reduces the opacity of the button to 80% */
-    text-decoration: none;
+    text-decoration: underline;
 }
 .button.contact {
     background-color: transparent;
@@ -116,6 +117,11 @@ a:active {
 #work .row {
     padding-bottom: 25px;
     border-bottom: 1px solid #ffffff;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .logo {
@@ -154,7 +160,7 @@ nav > ul > li > a:active {
     color: #994c30;
 }
 #hero {
-    background-color: #000000;
+    background-color: #f8f8f8;
     padding: 20px 0;
     display: inline-block;
     width: 100%;
@@ -166,6 +172,8 @@ nav > ul > li > a:active {
 main {
     padding-top: 200px;
 }
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -184,26 +192,35 @@ Medium devices (640px and larger)
 .col-md-6 {
   width: 50%;
 }
+#about-page h3 { margin-top: 0;}
+
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 }
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
 }
+
 [class*="col-"] {
   float: left;
   padding-left: 10px;
   padding-right: 10px;
 }
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
+
+
+
 @keyframes color-change {
   from {fill: #edc655;}
   to {fill: #f76414;}
