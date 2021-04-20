@@ -15,7 +15,6 @@ header {
     box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.75);
     width: 100%;
     position: fixed;
-    }
 }
 
 * {
@@ -104,24 +103,28 @@ a:active {
     background-color: #099fe3;
     color: #ffffff;
 }
+footer {
+text-align: center;
+}
+footer .email {
+margin-bottom: 20px
 
+}
 /* Layout styling */
 
 .container {
     padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1440px
 }
 
 .row {
     margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
+
 #work .row {
     padding-bottom: 25px;
     border-bottom: 1px solid #ffffff;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .logo {
@@ -188,9 +191,32 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
-}
-.col-md-6 {
-  width: 50%;
+  [class*="col-"] {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .col-md-1 {width: 8.33%;}
+  .col-md-2 {width: 16.66%;}
+  .col-md-3 {width: 25%;}
+  .col-md-4 {width: 33.33%;}
+  .col-md-5 {width: 41.66%;}
+  .col-md-6 {width: 50%;}
+  .col-md-7 {width: 58.33%;}
+  .col-md-8 {width: 66.66%;}
+  .col-md-9 {width: 75%;}
+  .col-md-10 {width: 83.33%;}
+  .col-md-11 {width: 91.66%;}
+  .col-md-12 {width: 100%;}
+  .col-centered {
+    float: none;
+    margin: 0 auto;
+  }
 }
 #about-page h3 { margin-top: 0;}
 
@@ -205,17 +231,25 @@ Large devices (1024px or larger)
   margin-left: auto;
   margin-right: auto;
 }
-
+.col-lg-1 {width: 8.33%;}
+.col-lg-2 {width: 16.66%;}
+.col-lg-3 {width: 25%;}
+.col-lg-4 {width: 33.33%;}
+.col-lg-5 {width: 41.66%;}
+.col-lg-6 {width: 50%;}
+.col-lg-7 {width: 58.33%;}
+.col-lg-8 {width: 66.66%;}
+.col-lg-9 {width: 75%;}
+.col-lg-10 {width: 83.33%;}
+.col-lg-11 {width: 91.66%;}
+.col-lg-12 {width: 100%;}
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
 }
 
-[class*="col-"] {
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
+
 }
 
 
