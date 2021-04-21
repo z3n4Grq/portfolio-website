@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>Home</title>
+        <script src="https://kit.fontawesome.com/281fe642ea.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -13,14 +14,17 @@
     <body>
         <header>
             <div class="container">
+              <div class="navtoggle" id="myNavtoggle" position=relative>
                 <img class="logo" src="img/logo.svg" alt="Jordan Skedgwell" />
-                <nav>
+                  <nav>
                     <ul class="navigation">
                         <li><a href="index.html">Work</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="#contact">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
                     </ul>
-                </nav>
+                  </nav>
+              </div>
             </div>
         </header>
 
@@ -63,7 +67,7 @@
                         <div class="column col-md-6 col-lg-5">
                             <!--Right column -->
                             <h3>South America</h3>
-                            <p>I travelled in South America between December 2013 and February 2014. I visited Peru and Bolivia, with a highlight being 5 days hiking to 4630msnm through the Salkantay Pass to Machu Picchu.</p>                            
+                            <p>I travelled in South America between December 2013 and February 2014. I visited Peru and Bolivia, with a highlight being 5 days hiking to 4630msnm through the Salkantay Pass to Machu Picchu.</p>
                         </div>
                     </div>
 
