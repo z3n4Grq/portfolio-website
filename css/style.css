@@ -240,6 +240,16 @@ nav > ul {
 .navtoggle li:last-child {
   display: none;
 }
+.navtoggle.responsive nav {
+  padding: 0 0 0;
+}
+.navtoggle.responsive li  {
+  padding: 0 0;
+  border-top: none;
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0;
+}
   [class*="col-"] {
     float: left;
     padding-left: 10px;
@@ -285,6 +295,16 @@ nav {
 }
 nav > ul > li {
     display: inline-block;
+}
+.navtoggle.responsive nav {
+  padding: 0 0 0;
+}
+.navtoggle.responsive li  {
+  padding: 0 0;
+  border-top: none;
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0;
 }
 
 .col-lg-1 {width: 8.33%;}
