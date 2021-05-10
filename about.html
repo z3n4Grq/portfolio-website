@@ -1,127 +1,118 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8" />
-        <title>Home</title>
-        <script src="https://kit.fontawesome.com/281fe642ea.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-    </head>
 
-    <body>
-        <header>
-            <div class="container">
-              <div class="navtoggle" id="myNavtoggle" position=relative>
-                <img class="logo" src="img/logo.svg" alt="Jordan Skedgwell" />
-                  <nav>
-                    <ul class="navigation">
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-                    </ul>
-                  </nav>
-              </div>
+<head>
+  <meta charset="utf-8" />
+  <title>Home</title>
+  <script src="https://kit.fontawesome.com/281fe642ea.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle" position=relative>
+        <img class="logo" src="img/logo.svg" alt="Jordan Skedgwell" />
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div>
+      <div class="container">
+        <h1>About</h1>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-centered">
+            <picture>
+              <source srcset="img/portrait-sml.jpg" media="(max-width:767px)" />
+              <img src="img/portrait-lrg.jpg" alt="Jordan Skedgwell" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-7">
+          <h2>My story</h2>
+          <p>I have a real sense of adventure and curiosity, and spent periods of my adult life living, travelling and immersing myself in multiple countries and cultures, including Mexico, Canada, Germany, and Scotland</p>
+          <p>Outside of work I enjoy snowboarding and surfing, chatting with my nieces and nephews, holding conversations with an assortment of animals, and mourning the loss of authentic hard rock and rap music.</p>
+          <a href="files/resume.pdf" target="_blank" download>Download my CV</a>
+        </div>
+        <div class="col-md-12 col-lg-5">
+          <h2>Skills and tools</h2>
+          <div class="row">
+            <div class="col-md-6 col-lg-12">
+              <h3>Relevant skills</h3>
+              <ul>
+                <li>Leading end-to-end product design processes</li>
+                <li>UI design and frontend development</li>
+                <li>Stakeholder and client engagement</li>
+                <li>Team leadership</li>
+                <li>Project management</li>
+              </ul>
             </div>
-        </header>
-
-        <main>
-            <div>
-                <div class="container">
-                    <h1>About</h1>
-                </div>
+            <div class="col-md-6 col-lg-12">
+              <h3>Tools I use</h3>
+              <ul>
+                <li>Askable</li>
+                <li>DevOps</li>
+                <li>Figma</li>
+                <li>InVision</li>
+                <li>Jira</li>
+                <li>Optimal Workshop</li>
+                <li>Sketch</li>
+              </ul>
             </div>
-            <div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-5 col-centered"
-                      <picture>
-                          <source srcset="img/portrait-sml.jpg" media="(max-width:767px)" />
-                          <img src="img/portrait-lrg.jpg" alt="Jordan Skedgwell" />
-                      </picture>
-                    </div>
-                  </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-lg-7">
-                        <h2>My story</h2>
-                        <p>I have a real sense of adventure and curiosity, and spent periods of my adult life living, travelling and immersing myself in multiple countries and cultures, including Mexico, Canada, Germany, and Scotland</p>
-                        <p>Outside of work I enjoy snowboarding and surfing, chatting with my nieces and nephews, holding conversations with an assortment of animals, and mourning the loss of authentic hard rock and rap music.</p>
-                        <a href="files/resume.pdf" target="_blank" download>Download my CV</a>
-                    </div>
-                    <div class="col-md-12 col-lg-5">
-                      <h2>Skills and tools</h2>
-                      <div class="row">
-                        <div class="col-md-6 col-lg-12">
-                          <h3>Relevant skills</h3>
-                            <ul>
-                                <li>Leading end-to-end product design processes</li>
-                                <li>UI design and frontend development</li>
-                                <li>Stakeholder and client engagement</li>
-                                <li>Team leadership</li>
-                                <li>Project management</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 col-lg-12">
-                          <h3>Tools I use</h3>
-                            <ul>
-                                <li>Askable</li>
-                                <li>DevOps</li>
-                                <li>Figma</li>
-                                <li>InVision</li>
-                                <li>Jira</li>
-                                <li>Optimal Workshop</li>
-                                <li>Sketch</li>
-                            </ul>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
 
 
-        <footer id="contact">
-            <div class="container">
-                <!-- Contact section -->
-                <div>
-                    <h2>Get in touch</h2>
-                    <p>If you'd like to chat, call me on <a href="tel:0400000000">0400 000 000</a>. If you'd prefer to email, use the button below.</p>
-                    <div class="email">
-                        <a href="mailto:jordan.skedgwell@gmail.com" class="button contact">Email me</a>
-                    </div>
-                    <div>
-                        <a href="https://www.linkedin.com/in/jordanskedgwell/" target="_blank">
-                            <svg
-                                height="67px"
-                                id="Layer_1"
-                                style="enable-background: new 0 0 67 67;"
-                                version="1.1"
-                                viewBox="0 0 67 67"
-                                width="67px"
-                                xml:space="preserve"
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                            >
-                                <path
-                                    d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z"
-                                    style="fill-rule: evenodd; clip-rule: evenodd; fill: #007ab9;"
-                                />
-                            </svg>
-                        </a>
-                    </div>
-                    <p>Copyright Jordan Skedgwell 2021</p>
-                </div>
-            </div>
-        </footer>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script src="js/scripts.js"></script>
-    </body>
+  <footer id="contact">
+    <div class="container">
+      <!-- Contact section -->
+      <div>
+        <h2>Get in touch</h2>
+        <p>If you'd like to chat, call me on <a href="tel:0400000000">0400 000 000</a>. If you'd prefer to email, use the button below.</p>
+        <div class="email">
+          <a href="mailto:jordan.skedgwell@gmail.com" class="button contact">Email me</a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/jordanskedgwell/" target="_blank">
+            <svg height="67px" id="Layer_1" style="enable-background: new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="67px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path
+                d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z"
+                style="fill-rule: evenodd; clip-rule: evenodd; fill: #007ab9;" />
+            </svg>
+          </a>
+        </div>
+        <p>Copyright Jordan Skedgwell 2021</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>
